@@ -1,3 +1,26 @@
+.heading {
+    height: 50px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+
+.container {
+    height: 100px;
+    position: relative;
+}
+
+.offset {
+    padding-left: 100px;
+}
+
 .projectButtons {
     color: white;
     background-color: black;
@@ -9,7 +32,7 @@
     transition: 500ms;
     font-family: Arial;
     font-size: larger;
-    margin: 30px 0px 5px 0px;
+    margin: 15px 0px 5px 0px;
 }
 
 #sort {
@@ -65,5 +88,5 @@ h3 {
 
 p {
     margin-top: 0;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }

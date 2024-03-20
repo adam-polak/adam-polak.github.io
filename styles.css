@@ -47,6 +47,10 @@
     border-width: 3px;
 }
 
+div {
+    padding: 0;
+}
+
 a {
     text-decoration: none !important;
 }

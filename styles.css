@@ -1,3 +1,11 @@
+a {
+    text-decoration: none !important;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(151, 222, 232, 1));
+}
+
 .heading {
     height: 50px;
     position: relative;
@@ -27,8 +35,8 @@
 }
 
 .projectButtons {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: lightblue;
     border-color: white;
     border-width: 1px;
     border-radius: 4px;
@@ -45,18 +53,7 @@
 }
 
 .projectButtons:hover {
-    color: black;
-    background-color: white;
-    border-color: black;
     border-width: 3px;
-}
-
-div {
-    padding: 0;
-}
-
-a {
-    text-decoration: none !important;
 }
 
 button {

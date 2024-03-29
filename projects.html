@@ -1,66 +1,51 @@
 <!DOCTYPE html>
 
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Projects</title>
-</head>
+<html lang="en">
+    <head>
+        <meta http-equiv='cache-control' content='no-cache'> 
+        <meta http-equiv='expires' content='0'> 
+        <meta http-equiv='pragma' content='no-cache'>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>Home</title>
+    </head>
 
-<body>
-
-    <div class="heading">
-        <div class="center">
-            <a target="_self" href="index.html">
-                <button>
-                    <div>
-                        Home
-                    </div>
-                </button>
-            </a>
-    
-            <a target="_self" href="projects.html">
-                <button>
-                    <div>
-                        Projects
-                    </div>
-                </button>
-            </a>
+    <body>
+        <div class="top">
+            <a href="index.html"><button>Home</button></a>
+            <a href="projects.html"><button>Projects</button></a>
         </div>
-    </div>
 
-    <div class="container" id="projContainer">
-        <div class="offset">
+        <div class="projects">
+            <h1>Sorting Algorithms</h1>
+            <hr>
+            <p>
+                This is a program made in Java using Java Swing with the goal of graphically displaying different sorting algorithms.
+                Building this has helped me deepen my understanding of concepts covered in my Data Strcutures and Algorithms course.
+                <br>
+                <br>
+                <a class="checkIt" target="_blank" href="https://github.com/adam-polak/SortComparison">
+                    Check it out!
+                </a>
+            </p>
 
-            <a target="_blank" href="https://github.com/adam-polak/SortComparison">
-                <button class="projectButtons" id="sort">
-                    <div>
-                        Sorting Algorithms
-                    </div>
-                </button>
-            </a>
 
-            <div class="inner">
-                <p>
-                    This is a program made in Java using Java Swing with the goal of graphically displaying different sorting algorithms.
-                    Building this has helped me deepen my understanding of concepts covered in my Data Strcutures and Algorithms course.
-                </p>
-            </div>
-
-            <a target="_blank" href="https://github.com/adam-polak/checkers">
-                <button class="projectButtons">
-                    <div>
-                        Checkers
-                    </div>
-                </button>
-            </a>
-
-            <div class="inner">
-                <p>
-                    My first ever project a checkers game made in Java using Java Swing. Using my limited programming knowledge at the time wanted
-                    to see if I could recreate a game I would enjoy playing. Completing this project kickstarted my self-learning outside of the classroom.
-                </p>
-            </div>
-
+            <a target="_blank" href="https://github.com/adam-polak/SortComparison"></a>
         </div>
-    </div>
 
-</body>
+        <div class="projects">
+            <h1>Checkers</h1>
+            <hr>
+            <p>
+                My first ever project a checkers game made in Java using Java Swing. Using my limited programming knowledge at the time wanted
+                to see if I could recreate a game I would enjoy playing. Completing this project kickstarted my self-learning outside of the classroom.
+                <br>
+                <br>
+                <a class="checkIt" target="_blank" href="https://github.com/adam-polak/checkers">
+                    Check it out!
+                </a>
+            </p>
+        </div>
+
+    </body>
+</html>
